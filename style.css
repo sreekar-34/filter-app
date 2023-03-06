@@ -1,0 +1,23 @@
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+h3{
+    font-size: 25px !important;
+    color: black !important;
+}
+
+canvas{
+    border: 4px black solid;
+}
+
+@keyframes example {
+    from{
+        box-shadow: 1px 1px 100px lightskyblue;
+    }
+    to{
+        box-shadow: 1px 1px 100px orange;
+    }
+}
